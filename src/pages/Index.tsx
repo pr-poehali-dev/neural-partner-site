@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import Icon from "@/components/ui/icon";
 
-const REFERRAL_URL = "https://YOUR_REFERRAL_LINK_HERE";
+const REFERRAL_URL = "https://aisevenai.ru/?ref=1067854302";
 
 const faqs = [
   {
@@ -81,7 +81,7 @@ const advantages = [
   {
     icon: "Headphones",
     title: "Поддержка 24/7",
-    desc: "Персональный менеджер ответит на любой вопрос в течение 15 минут",
+    desc: "Круглосуточная служба поддержки — всегда на связи для решения любых вопросов",
     glow: "#a3e635",
   },
   {
@@ -484,48 +484,26 @@ export default function Index() {
         </div>
       </section>
 
-      {/* CONTACTS */}
+      {/* FINAL CTA */}
       <section id="contacts" className="py-24 px-6">
         <div className="max-w-4xl mx-auto text-center">
-          <span className="text-violet-400 font-semibold text-sm uppercase tracking-widest">Контакты</span>
-          <h2 className="font-oswald text-4xl md:text-5xl font-bold mt-3 mb-6">Остались вопросы?</h2>
-          <p className="text-white/50 text-lg mb-10 max-w-lg mx-auto">
-            Наш менеджер ответит в течение 15 минут и поможет начать зарабатывать
-          </p>
-
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
-            <a
-              href="https://t.me/your_telegram"
-              className="inline-flex items-center gap-3 bg-[#229ED9] hover:bg-[#1a8fc2] text-white font-semibold px-8 py-4 rounded-2xl transition-all hover:scale-105"
-            >
-              <span className="text-xl">✈️</span> Написать в Telegram
-            </a>
-            <a
-              href="mailto:partner@example.com"
-              className="inline-flex items-center gap-3 border border-white/20 hover:border-white/40 text-white hover:bg-white/5 font-semibold px-8 py-4 rounded-2xl transition-all"
-            >
-              <Icon name="Mail" size={18} />
-              partner@example.com
-            </a>
-          </div>
-
-          {/* Final CTA */}
-          <div className="relative bg-gradient-to-br from-violet-900/60 via-purple-900/40 to-cyan-900/40 border border-white/10 rounded-3xl p-10 overflow-hidden">
+          <div className="relative bg-gradient-to-br from-violet-900/60 via-purple-900/40 to-cyan-900/40 border border-white/10 rounded-3xl p-12 overflow-hidden">
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-96 h-32 bg-violet-500/20 blur-3xl" />
             <div className="relative">
-              <div className="text-4xl mb-4">🚀</div>
-              <h3 className="font-oswald text-3xl md:text-4xl font-bold mb-4">
+              <div className="text-5xl mb-5">🚀</div>
+              <h3 className="font-oswald text-3xl md:text-5xl font-bold mb-4">
                 Начни зарабатывать прямо сейчас
               </h3>
-              <p className="text-white/50 mb-8 max-w-md mx-auto">
-                Тысячи партнёров уже получают пассивный доход. Присоединяйся!
+              <p className="text-white/50 text-lg mb-3 max-w-lg mx-auto">
+                Переходи по ссылке — тебя ждут <strong className="text-white">10 дней бесплатного доступа</strong> ко всем нейросетям и подробная информация о партнёрской программе прямо на платформе.
               </p>
+              <p className="text-white/30 text-sm mb-10">Тысячи партнёров уже получают пассивный доход. Присоединяйся!</p>
               <a
                 href={REFERRAL_URL}
                 className="inline-flex items-center gap-3 bg-gradient-to-r from-violet-600 via-purple-600 to-cyan-500 text-white font-bold text-xl px-12 py-5 rounded-2xl hover:opacity-90 transition-all hover:scale-105 hover:shadow-2xl hover:shadow-violet-500/30"
               >
                 <Icon name="Rocket" size={22} />
-                Зарегистрироваться бесплатно
+                Попробовать бесплатно 10 дней
               </a>
             </div>
           </div>
