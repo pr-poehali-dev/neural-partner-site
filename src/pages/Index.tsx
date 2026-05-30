@@ -62,7 +62,7 @@ const cases = [
 const advantages = [
   {
     icon: "Zap",
-    title: "До 40% комиссии",
+    title: "До 35% комиссии",
     desc: "Один из самых высоких процентов на рынке партнёрских программ в нише ИИ",
     glow: "#6366f1",
   },
@@ -240,7 +240,7 @@ export default function Index() {
           </h1>
 
           <p className="text-xl md:text-2xl text-white/60 max-w-2xl mx-auto mb-10 leading-relaxed animate-fade-in" style={{ animationDelay: "0.2s" }}>
-            Приглашай пользователей и получай до <strong className="text-white">40% комиссии</strong> с каждого их платежа — пожизненно
+            Приглашай пользователей и получай до <strong className="text-white">35% комиссии</strong> с каждого их платежа — пожизненно
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in" style={{ animationDelay: "0.3s" }}>
@@ -335,16 +335,16 @@ export default function Index() {
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div className="bg-gradient-to-br from-violet-900/40 to-violet-900/10 border border-violet-500/30 rounded-3xl p-8">
-              <div className="text-5xl font-oswald font-black text-violet-400 mb-2">до 40%</div>
+              <div className="text-5xl font-oswald font-black text-violet-400 mb-2">до 35%</div>
               <div className="text-xl font-semibold mb-3">Комиссия с каждого платежа</div>
               <p className="text-white/50 text-sm leading-relaxed">
-                Начинаете с базовой ставки 20%. По мере роста числа рефералов ставка увеличивается до 30%, 35% и максимальных 40%. Ставка растёт автоматически.
+                Начинаете с базовой ставки 15%. По мере роста числа рефералов ставка увеличивается до 20% и максимальных 35%. Ставка растёт автоматически.
               </p>
               <div className="mt-6 space-y-2">
                 {[
-                  { label: "0–50 рефералов", rate: "20%", w: "50%" },
-                  { label: "50–200 рефералов", rate: "30%", w: "75%" },
-                  { label: "200+ рефералов", rate: "40%", w: "100%" },
+                  { label: "0–50 рефералов", rate: "15%", w: "43%" },
+                  { label: "50–200 рефералов", rate: "20%", w: "57%" },
+                  { label: "200+ рефералов", rate: "35%", w: "100%" },
                 ].map((tier) => (
                   <div key={tier.label} className="flex items-center gap-3">
                     <div className="text-xs text-white/50 w-36">{tier.label}</div>
